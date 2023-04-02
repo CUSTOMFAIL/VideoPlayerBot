@@ -55,19 +55,4 @@
         "value": "Hello Sir, I'm a bot to stream videos on telegram voice chat, not having time to chat with you 😂!",
         "required": false
       }
-    },
-    "formation": {
-      "worker": {
-        "quantity": 1,
-        "size": "free"
-      }
-    },
-    "buildpacks": [
-      {
-        "url": "https://github.com/jonathanong/heroku-buildpack-ffmpeg-latest"
-      },
-      {
-        "url": "heroku/python"
-      }
-    ]
-  }
+    }
